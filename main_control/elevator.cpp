@@ -79,7 +79,7 @@ void Elevator::goToGround(Switch& switchObj, LCD& theScreen){
       counter = 0;
     }
   }
-  int currentFloor = 1;
+  currentFloor = 1;
   theScreen.updateFloor(currentFloor);
   eleDoor_.openDoors();
   return;
